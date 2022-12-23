@@ -5,3 +5,4 @@
 3. Get Lens Handle / Research How to Get one or Buy One
 4. Use Pinata and Get Key
 5. Learn More about Lens Protocol / Read Docs
+   6
