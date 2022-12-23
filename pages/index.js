@@ -10,8 +10,8 @@ import { useMoralis } from "react-moralis";
 import { useLensContext } from "../context/LensContext";
 import { apolloClient } from "../constants/lensConstants";
 
-// We start with at least Patrick's Posts
-let profileIdList = ["0x869c"];
+// We start with at least Patrick's Posts //added second profile id 0x4082
+let profileIdList = ["0x869c", "0x4082"];
 
 export default function Home(props) {
   const { profileId } = useLensContext();
@@ -52,7 +52,7 @@ export default function Home(props) {
       />
       <div className="pl-2 pr-2">
         <div className="p-2 m1 bg-sky-600 border text-white rounded  border-solid border-black">
-          <p>Our decentralized blogging platform!</p>
+          <p>Diary of a Degen</p>
         </div>
       </div>
 
